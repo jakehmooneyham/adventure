@@ -1,3 +1,13 @@
+mod lib;
 fn main() {
-    println!("Hello, world, I made a change to the code!");
+
+let mut player = lib::Character {
+    health: 100,
+    level: 10
+    };
+let mut bad_guy = lib::Character {
+    health: 100,
+    level: 9,
+};
+
 }

@@ -1,5 +1,5 @@
 // character system
-struct  Character {
-    health: i32,
-    level: i32,
+pub struct  Character {
+    pub health: i32,
+    pub level: i32,
 }
