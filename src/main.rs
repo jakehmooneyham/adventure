@@ -2,7 +2,7 @@ mod lib;
 fn main() {
 
 let mut player = lib::Character {
-    health: 500,
+    health: 600,
     level: 10
     };
 let mut bad_guy = lib::Character {
